@@ -1,0 +1,30 @@
+{
+  "name": "deinos",
+  "version": "0.1.0",
+  "description": "IRC library",
+  "bugs": "https://github.com/terrablue/deinos/issues",
+  "license": "MIT",
+  "files": [
+    "src/**/*.js",
+    "src/defaults.json",
+    "!src/**/*.spec.js",
+    "types/*.ts"
+  ],
+  "repository": "https://github.com/terrablue/deinos",
+  "scripts": {
+    "test": "npx debris"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "types": "./types/index.d.ts",
+  "exports": "./src/exports.js",
+  "dependencies": {
+    "rcompat": "^0.11.2"
+  },
+  "devDependencies": {
+    "debris": "^0.14.0",
+    "maximin": "^0.2.2"
+  }
+}

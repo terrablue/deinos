@@ -1,0 +1,12 @@
+{
+  "nick": "dn-guest",
+  "user": "dn-guest",
+  "extensions": {
+    "account_tag": false
+  },
+  "network": {
+    "host": "irc.libera.chat",
+    "port": 6697
+  },
+  "channels": ["#gpbot"]
+}
